@@ -71,18 +71,18 @@
 			"tecnos" : ["as3","phidgets","buttons","video"]
 		},
 		{
-			"id" : "latexexperience",
-			"footer" : "Interactive catalogue",
-			"desc" : "<h1>Latex Experience</h1><p>Custom furniture with an interactive catalogue controled by a webcam using reactivision software.</p><p>Every time the user turn the page the system reads a special tag located at the topleft corner, using the webcam. Then the reactivision software interpretes the tag and pass the code to the main program that launch a video related to the page is being shown</p>",
-			"url" : "",
-			"tecnos" : ["as3","reactivision","video","webcam"]
-		},
-		{
 			"id" : "3dscaledmodel",
 			"footer" : "Real model, virtual experience",
 			"desc" : "<h1>3d scaled model</h1><p>Custom furniture with a 3d scaled model of a dental laboratory that interacts with a screen using an optical rotatory encoder.</p><p>Whenever a visitor moves the zipper the screen shows the 3d model at that exact position. If the visitor puts the pointer over any of the markers a video is launched</p>",
 			"url" : "http://vimeo.com/48072086",
 			"tecnos" : ["as3","phidgets","encoder","3d model","video"]
+		},
+		{
+			"id" : "latexexperience",
+			"footer" : "Interactive catalogue",
+			"desc" : "<h1>Latex Experience</h1><p>Custom furniture with an interactive catalogue controled by a webcam using reactivision software.</p><p>Every time the user turn the page the system reads a special tag located at the topleft corner, using the webcam. Then the reactivision software interpretes the tag and pass the code to the main program that launch a video related to the page is being shown</p>",
+			"url" : "",
+			"tecnos" : ["as3","reactivision","video","webcam"]
 		},
 		{
 			"id" : "santiago",
