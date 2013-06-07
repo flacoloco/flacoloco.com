@@ -9,6 +9,40 @@ nav {
 	margin-top:1em;
 }
 
+nav#filter{
+	float:right;
+}
+
+
+nav#filter ul {
+	list-style:none;
+	color:#000;
+	margin-top:-10px;
+}
+
+nav#filter li {
+	display:inline-block;
+	text-align:left;
+	margin-left:20px;
+	margin-right:0;
+	padding:2px 5px 2px 5px;
+}
+nav#filter li:first {
+	padding-left:40px;
+}
+nav#filter a:link {
+	color:#000;
+	font-weight:normal;
+}
+nav#filter a:visited {
+	color:#000;
+}
+
+nav#filter li.active {
+	background-color:rgba(0,0,0,0.1);
+	font-weight:normal;
+}
+
 em, a:link {
 	font-weight:bold;
 	text-decoration:none;
@@ -173,6 +207,8 @@ h1 {
 	-webkit-filter: grayscale(0%);
 }
 
+
+
 .thumb p {
 	margin-top:1em;
 	font-size: 1.5em;
@@ -192,4 +228,13 @@ h1 {
 
 .navbar {
 	margin-bottom:5em;
+}
+
+@media screen and (max-width: 480px) {
+	#filter {
+		display:none;
+	}
+	.thumb img {
+		max-height:100px;
+	}	
 }

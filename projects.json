@@ -5,126 +5,144 @@
 			"footer" : "Indissoluble website",
 			"desc" : "<h1>indissoluble.com</h1><p>Corporate site. Development of front-end as well as back-end. I developed the backoffice management system too: customers, suppliers, inventory...</p><p>For the home page I used a plugin for the fullscreen background and for the projects tab I did an on-site installation of Wordpress.</p>", 
 			"url" : "http://indissoluble.com",
-			"tecnos" : ["css3","html5","javascript","json","jquery","mysql","php","wordpress","xml"]
+			"tecnos" : ["css3","html5","javascript","json","jquery","mysql","php","wordpress","xml"],
+			"type": "web"
 		},	
 		{
 			"id" : "archeoforum",
 			"footer" : "Archeoforum website",
 			"desc" : "<h1>Roman Forum website with 360º panos</h1><p>Virtual visit to the Roman Forum in Rome, Italy. Development with AS3 to integrate the different 360º panos and very high resolution images. Custom CMS to update the info and pictures of the popup windows with information about each monument</p>", 
 			"url" : "http://archeoforum.com",
-			"tecnos" : ["as3","css","html","javascript","jquery","krpano","mysql","php","xml"]
+			"tecnos" : ["as3","css","html","javascript","jquery","krpano","mysql","php","xml"],
+			"type": "web"
 		},
 		{
 			"id" : "ulmapackaging",
 			"footer" : "iPad catalogue",
-			"desc" : "<h1>iPad catalogue</h1><p>For be used on a fair with a server backend to update its media contents at any moment</p>", 
+			"desc" : "<h1>iPad catalogue</h1><p>To be used on a fair with a server backend to update its media contents at any moment.</p>", 
 			"url" : "",
-			"tecnos" : ["appcelerator","javascript"]
+			"tecnos" : ["appcelerator","javascript"],
+			"type": "mobile"
 		},
 		{
 			"id" : "antiquarium",
 			"footer" : "Antiquarium website",
-			"desc" : "<h1>Antiquarium Museum website</h1><p>Website for the Antiquarium Museum in Rome, Italy. The museum is currently closed and the intention is to do a 'virtual opening'. This web is still under development. I did both front-end and back-end.",
+			"desc" : "<h1>Antiquarium Museum website</h1><p>Website for the Antiquarium Museum in Rome, Italy. The museum is currently closed and the intention is to do a 'virtual opening'. This web is still under development. I did both front-end and back-end.</p>",
 			"url" : "http://www.archeoroma.beniculturali.it/carcer-tullianum/antiquarium",
-			"tecnos" : ["css","html","javascript","jquery","json","mysql","php"]
+			"tecnos" : ["css","html","javascript","jquery","json","mysql","php"],
+			"type": "web"
 		},
 		{
 			"id" : "robot",
 			"footer" : "Explorer Robot",
-			"desc" : "<h1>Wired robot</h1><p>I made this robot to explore the smallest tunnels at Roman Forum Cloaca Massima in Rome. Italy</p><p>Is equipped with 2 webcams, one for video streaming and another for recording in high quality. Also it has sensors for temperature and humidity and a 3 axis accelerometer to show the terrain inclination</p><p>An AS3 desktop interface controlles tha state of robot sensors. The robot software was made with AutoIt",
-			"url" : "",
-			"tecnos" : ["arduino","as3","autoit","phidgets","sensors"]
+			"desc" : "<h1>Wired robot</h1><p>I made this robot to explore the smallest tunnels at Roman Forum Cloaca Massima in Rome. Italy.</p><p>It is equipped with 2 webcams, one for video streaming and another for recording in high quality. Also it has sensors for temperature and humidity and a 3 axis accelerometer to show the terrain inclination.</p><p>An AS3 desktop interface controlles tha state of robot sensors. The robot software was made with AutoIt.</p>",
+			"url" : "http://www.archeorobot.com",
+			"tecnos" : ["arduino","as3","autoit","phidgets","sensors"],
+			"type": "special"
 		},
 		{
 			"id" : "bielec",
 			"footer" : "Bielec website",
-			"desc" : "<h1>Corporate site</h1><p>Development of both front-end and back-end using an on-site Wordpress installation. Backoffice system to manage customers projects</p>",
+			"desc" : "<h1>Corporate site</h1><p>Development of both front-end and back-end using an on-site Wordpress installation. Backoffice system to manage customers projects.</p>",
 			"url" : "http://bielec.es",
-			"tecnos" : ["css3","html5","javascript","json","jquery","mysql","php","wordpress","xml"]
+			"tecnos" : ["css3","html5","javascript","json","jquery","mysql","php","wordpress","xml"],
+			"type": "web"
 		},
 		{
 			"id" : "incasol",
 			"footer" : "Actuacions INCASÒL website",
-			"desc" : "<h1>Actuacions INCASÒL</h1><p>A micro-site to show the actuations of INCASÒL around Catalonia</p>",
+			"desc" : "<h1>Actuacions INCASÒL</h1><p>A micro-site to show the actuations of INCASÒL around Catalonia.</p>",
 			"url" : "http://actuacionsincasol.cat",
-			"tecnos" : ["css3","html5","javascript","mootools","mysql","php","xml"]
+			"tecnos" : ["css3","html5","javascript","mootools","mysql","php","xml"],
+			"type": "web"
 		},
 		{
 			"id" : "mpanel",
 			"footer" : "Motorized panels",
 			"desc" : "<h1>Saving energy</h1><p>Using a touchscreen the visitor has to discover what elements are consuming too much energy and click on them to change them for new more ecological ones.</p><p>Whenever an old element is click a video animation is shown at the touch screen a motorized panel is turned 180º to show the new state in a wooden panel and the stats of energy consume are change in a second screen top right.</p>",
 			"url" : "",
-			"tecnos" : ["as3","phidgets","motors","relays"]
+			"tecnos" : ["as3","phidgets","motors","relays"],
+			"type": "special"
 		},
 		{
 			"id" : "vespasianovp",
 			"footer" : "Custom in-furniture video player",
-			"desc" : "<h1>Video juxebox</h1><p>Custom in-furniture video player for the temporal exhibition 'Vespasiano e la scuola' in Rome, Italy</p><p>The visitor chooses with video to play touching on the vinile circles of the table. A touch sensor captures the position of the touch and plays the proper video.</p>",
+			"desc" : "<h1>Video juxebox</h1><p>Custom in-furniture video player for the temporal exhibition 'Vespasiano e la scuola' in Rome, Italy.</p><p>The visitor chooses with video to play touching on the vinile circles of the table. A touch sensor captures the position of the touch and plays the proper video.</p>",
 			"url" : "",
-			"tecnos" : ["as3","phidgets","touch","video"]
+			"tecnos" : ["as3","phidgets","touch","video"],
+			"type": "special"
 		},
 		{
 			"id" : "vespasianogame",
 			"footer" : "Vespatrivial game",
-			"desc" : "<h1>Vespatrivial game</h1><p>Custom in-furniture quiz game for the temporal exhibition 'Vespasiano e la scuola' in Rome, Italy</p><p>Using the push buttons 3 players have to answer the questions are shown in the projection area.</p>",
+			"desc" : "<h1>Vespatrivial game</h1><p>Custom in-furniture quiz game for the temporal exhibition 'Vespasiano e la scuola' in Rome, Italy.</p><p>Using the push buttons 3 players have to answer the questions are shown in the projection area.</p>",
 			"url" : "",
-			"tecnos" : ["as3","phidgets","buttons","video"]
+			"tecnos" : ["as3","phidgets","buttons","video"],
+			"type": "special"
 		},
 		{
-			"id" : "3dscaledmodel",
+			"id" : "phibomodel",
 			"footer" : "Real model, virtual experience",
-			"desc" : "<h1>3d scaled model</h1><p>Custom furniture with a 3d scaled model of a dental laboratory that interacts with a screen using an optical rotatory encoder.</p><p>Whenever a visitor moves the zipper the screen shows the 3d model at that exact position. If the visitor puts the pointer over any of the markers a video is launched</p>",
+			"desc" : "<h1>3d scaled model</h1><p>Custom furniture with a 3d scaled model of a dental laboratory that interacts with a screen using an optical rotatory encoder.</p><p>Whenever a visitor moves the zipper the screen shows the 3d model at that exact position. If the visitor puts the pointer over any of the markers a video is launched.</p>",
 			"url" : "http://vimeo.com/48072086",
-			"tecnos" : ["as3","phidgets","encoder","3d model","video"]
+			"tecnos" : ["as3","phidgets","encoder","3d model","video"],
+			"type": "special"
 		},
 		{
 			"id" : "latexexperience",
 			"footer" : "Interactive catalogue",
-			"desc" : "<h1>Latex Experience</h1><p>Custom furniture with an interactive catalogue controled by a webcam using reactivision software.</p><p>Every time the user turn the page the system reads a special tag located at the topleft corner, using the webcam. Then the reactivision software interpretes the tag and pass the code to the main program that launch a video related to the page is being shown</p>",
+			"desc" : "<h1>Latex Experience</h1><p>Custom furniture with an interactive catalogue controled by a webcam using reactivision software.</p><p>Every time the user turn the page the system reads a special tag located at the topleft corner, using the webcam. Then the reactivision software interpretes the tag and pass the code to the main program that launch a video related to the page is being shown.</p>",
 			"url" : "",
-			"tecnos" : ["as3","reactivision","video","webcam"]
+			"tecnos" : ["as3","reactivision","video","webcam"],
+			"type": "special"
 		},
 		{
 			"id" : "santiago",
 			"footer" : "Walking 'el Camino' ",
-			"desc" : "<h1>Treadmills and video</h1><p>I connected 2 treadmills to magnetic sensors. For every step the visitor does the video goes forward some frames so the visitor has to walk to watch the video and do the 'Camino de Santiago'</p>",
+			"desc" : "<h1>Treadmills and video</h1><p>I connected 2 treadmills to magnetic sensors. For every step the visitor does the video goes forward some frames so the visitor has to walk to watch the video and do the 'Camino de Santiago'.</p>",
 			"url" : "",
-			"tecnos" : ["as3","arduino","magnetic","video"]
+			"tecnos" : ["as3","arduino","magnetic","video"],
+			"type": "special"
 		},
 		{
 			"id" : "treeofsin",
 			"footer" : "The Tree of Sin",
-			"desc" : "<h1>Custom metal interactive tree</h1><p>The tree has 3 RFID readers. Whenever the visitors close the RFID card to the reader, the tree talks to them in their own language</p>",
+			"desc" : "<h1>Custom metal interactive tree</h1><p>The tree has 3 RFID readers. Whenever the visitors close the RFID card to the reader, the tree talks to them in their own language.</p>",
 			"url" : "",
-			"tecnos" : ["as3","phidgets","rfid"]
+			"tecnos" : ["as3","phidgets","rfid"],
+			"type": "special"
 		},
 		{
 			"id" : "iamplayer",
 			"footer" : "Coordinated led strips and video system",
-			"desc" : "<h1>Video and leds synchro</h1><p>3 computers play videos synchronized by a 4th computer that also control the led strips of the stand using relays",
+			"desc" : "<h1>Video and leds synchro</h1><p>3 computers play videos synchronized by a 4th computer that also control the led strips of the stand using relays.</p>",
 			"url" : "",
-			"tecnos" : ["as3","phidgets","relays","leds","videos"]
+			"tecnos" : ["as3","phidgets","relays","leds","videos"],
+			"type": "special"
 		},
 		{
 			"id" : "videogame",
 			"footer" : "Video game for dental fair' ",
-			"desc" : "<h1>Video game</h1><p>A game controlled by a custom joystick made with an 3 axis accelerometer and a stainless tube</p>",
+			"desc" : "<h1>Video game</h1><p>A game controlled by a custom joystick made with an 3 axis accelerometer and a stainless tube.</p>",
 			"url" : "",
-			"tecnos" : ["as3","phidgets","accelerometer"]
+			"tecnos" : ["as3","phidgets","accelerometer"],
+			"type": "special"
 		},
 		{
 			"id" : "touchtable",
 			"footer" : "Touchscreen  with leds syncro",
-			"desc" : "<h1>Touchscreen and leds</h1><p>A touchscreen to show an interactive catalogue that coordinate its content with the lightning of the various boxes where real pieces were shown</p>",
+			"desc" : "<h1>Touchscreen and leds</h1><p>A touchscreen to show an interactive catalogue that coordinate its content with the lightning of the various boxes where real pieces were shown.</p>",
 			"url" : "",
-			"tecnos" : ["as3","phidgets","relays","leds"]
+			"tecnos" : ["as3","phidgets","relays","leds"],
+			"type": "special"
 		},
 		{
 			"id" : "hmmt",
 			"footer" : "iPhone app for travel",
-			"desc" : "<h1>How much my trip?</h1><p>An iPhone app for manage all the expenses of a travel in a very simple and easy way.</p><p>Made with Titanium appcelerator. The app is still under development</p>",
+			"desc" : "<h1>How much my trip?</h1><p>An iPhone app for manage all the expenses of a travel in a very simple and easy way.</p><p>Made with Titanium appcelerator. The app is still under development.</p>",
 			"url" : "",
-			"tecnos" : ["javascript","appcelerator","iphone"]
+			"tecnos" : ["javascript","appcelerator","iphone"],
+			"type": "mobile"
 		}
 		
 		
